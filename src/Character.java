@@ -18,7 +18,6 @@ public class Character {
         }
 
     }
-
     public void healTarget(Character enemyCharacter, int healPoints) {
 
         enemyCharacter.healthPoints += healPoints;
