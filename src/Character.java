@@ -40,6 +40,7 @@ public class Character {
 
     }
 
+
     public void levelTarget(Character enemyCharacter, int level) {
 
         enemyCharacter.level += 14;

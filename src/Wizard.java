@@ -6,8 +6,8 @@ public class Wizard extends Character {
     public void Blizzard(Character enemyCharacter) {
 
         System.out.println(super.characterName + " attacks " + enemyCharacter.characterName
-                + " with Blizzard(Damage - 30 , Mana Cost - 25)");
-        int damagePoints = 30;
+                + " with Blizzard(Damage - 45 , Mana Cost - 25)");
+        int damagePoints = 45;
         damageTarget(enemyCharacter, damagePoints);
         int manaPoints = 25;
         manaTarget(enemyCharacter, manaPoints);
@@ -16,8 +16,8 @@ public class Wizard extends Character {
 
     public void Scythe(Character enemyCharacter) {
         System.out.println(super.characterName + " attacks again " + enemyCharacter.characterName
-                + " with Scythe (Damage - 50 , Mana Cost - 30)");
-        int damagePoints = 50;
+                + " with Scythe (Damage - 70 , Mana Cost - 30)");
+        int damagePoints = 70;
         damageTarget(enemyCharacter, damagePoints);
         int manaPoints = 30;
         manaTarget(enemyCharacter, manaPoints);
@@ -43,8 +43,8 @@ public class Wizard extends Character {
 
     public void Slash(Character enemyCharacter) {
         System.out.println(super.characterName + " attacks again " + enemyCharacter.characterName
-                + " with Slash (Damage - 15 , Mana Cost - 10)");
-        int damagePoints = 15;
+                + " with Slash (Damage - 45, Mana Cost - 10)");
+        int damagePoints = 45;
         damageTarget(enemyCharacter, damagePoints);
         int manaPoints = 10;
         manaTargett(enemyCharacter, manaPoints);

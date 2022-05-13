@@ -24,6 +24,7 @@ public class Warlock extends Character {
     }
 
     public void FireHeal(Character characterName) {
+    public void Salve(Character characterName) {
         System.out.println(super.characterName + " Use Fire Heal (Heal - 50)");
         int healPoints = 50;
         healTarget(characterName, healPoints);
@@ -31,8 +32,10 @@ public class Warlock extends Character {
     }
 
     public void CauterantInferno(Character enemyCharacter) {
+    public void Inferno(Character enemyCharacter) {
         System.out.println(super.characterName + " attacks " + enemyCharacter.characterName
                 + " with CauterantInferno (Damage - 50 , Mana Cost - 15)");
+                + " with Inferno (Damage - 50 , Mana Cost - 15)");
         int damagePoints = 50;
         damageTarget(enemyCharacter, damagePoints);
         int manaPoints = 15;

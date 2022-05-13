@@ -11,10 +11,20 @@ public class App {
         Morphling.Wraith(Thamuz);
         Thamuz.Slam(Morphling);
         Thamuz.FireHeal(Thamuz);
+        Warlock Dazzle = new Warlock("Dazzle");
+        Morphling.Blizzard(Dazzle);
+        Morphling.Scythe(Dazzle);
+        Dazzle.Telekinesis(Morphling);
+        Morphling.Wraith(Dazzle);
+        Dazzle.Slam(Morphling);
+        Dazzle.Salve(Dazzle);
         Morphling.Tango(Morphling);
         Morphling.Slash(Thamuz);
         Thamuz.CauterantInferno(Morphling);
         Morphling.Curse(Thamuz);
+        Morphling.Slash(Dazzle);
+        Dazzle.Inferno(Morphling);
+        Morphling.Curse(Dazzle);
 
     }
 }
